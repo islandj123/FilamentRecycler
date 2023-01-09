@@ -89,7 +89,7 @@ def startMotor():
     motor_step.duty_cycle = 65535//2
 
 
-def motorInit()
+def motorInit():
     #Initialize pot for motor speed control
     motor_pot = analogio.AnalogIn(MOTOR_POT)
 
