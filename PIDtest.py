@@ -63,7 +63,8 @@ def main():
         else:
             f = open("example.txt", "w")
             contents.pop(0)
-            f.write(contents[0] + contents[1] + contents[2] + contents[3] + contents[4] + contents[5] + contents[6] + contents[7] + contents[8] + str(round(timer, 2)) + "," + str(round(actual, 2)) + "\n")
+            f.write(contents[0] + contents[1] + contents[2] + contents[3] + contents[4] + contents[5] + contents[6] + contents[7] + 
+            contents[8] + str(round(timer, 2)) + "," + str(round(actual, 2)) + "\n")
         f.close()
 
         timer = timer + 0.201
